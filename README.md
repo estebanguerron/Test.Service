@@ -5,7 +5,7 @@ Servicio con autenticacion jwt
 # 1. DataBase
   Ejecutar el archivo DataBase.sql
   
-  Para la creacion del docker de ka base de datos ejecutar el comando de InstallDatabase
+  Para la creacion del docker de la base de datos ejecutar el comando de InstallDatabase
   
 # 2.Servicio
   Abrir la solucion Test.Service\Test.Service.sln
