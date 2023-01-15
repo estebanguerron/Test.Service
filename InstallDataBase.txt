@@ -1,0 +1,7 @@
+1. Docker
+
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=password" -p 1433:1433 --name sqlserver --hostname sqlserver  -d mcr.microsoft.com/mssql/server:2019-latest
+
+2. Crear Base de Datos
+
+/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P password -d master -i DataBase.sql
