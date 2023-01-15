@@ -1,4 +1,3 @@
-Server=localhost\SQLEXPRESS;Database=TEST;Trusted_Connection=True;
 
 CREATE DATABASE TEST
 GO
