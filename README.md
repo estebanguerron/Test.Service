@@ -2,8 +2,12 @@
 Test.Service
 
 Servicio con autenticacion jwt
-
-# Servicio
+# 1. DataBase
+  Ejecutar el archivo DataBase.sql
+  
+  Para la creacion del docker de ka base de datos ejecutar el comando de InstallDatabase
+  
+# 2.Servicio
   Abrir la solucion Test.Service\Test.Service.sln
   
   Los servicios se puede probar con Postman
